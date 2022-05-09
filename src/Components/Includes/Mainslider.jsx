@@ -7,15 +7,16 @@ import Image3 from "../Images/slider/windmill.png";
 import Image4 from "../Images/slider/rain.png";
 import Image5 from "../Images/slider/fly.png";
 import Image6 from "../Images/slider/fairaway.png"
+import Image7 from "../Images/slider/fly.png";
 import OwlCarousel from "react-owl-carousel";
 
 const MainSlider = () => {
-  const associations = [
+  const projects = [
     {
       id: 1,
       ImageUrl: Image1,
       alt: "",
-      link: "/projects/avalon-park",
+      link: "/projects/quiet-earth",
       title: "Total Environment In That Quiet Earth @ 1.24 Cr* Onwards",
       specification: "2, 3 & 4BHK Apartments & Villas Off Hennur Road",
       price: "",
@@ -24,8 +25,8 @@ const MainSlider = () => {
       id: 2,
       ImageUrl: Image2,
       alt: "",
-      link: "/projects/meridian-park",
-      title: "Meridian Park - Prestige City",
+      link: "/projects/pursuit",
+      title: "Total Enviroment Pursuit Of A Radical Rhapsody",
       specification: "Excl. 3BHK Apartments",
       price: "87L* Onwards",
     },
@@ -33,8 +34,8 @@ const MainSlider = () => {
       id: 3,
       ImageUrl: Image3,
       alt: "",
-      link: "/projects/eden-park",
-      title: "Eden Park - Prestige City",
+      link: "/projects/windmill",
+      title: "Total Environment Windmill Of Your Mind",
       specification: "1 & 2BHK Apartments",
       price: "39.99L* Onwards",
     },
@@ -42,8 +43,8 @@ const MainSlider = () => {
       id: 4,
       ImageUrl: Image4,
       alt: "",
-      link: "/projects/aspen-greens",
-      title: "Aspen Greens - Prestige City",
+      link: "/projects/rain",
+      title: "Total Environment After The Rain",
       specification: "4BHK Villas",
       price: "3.2Cr* Onwards",
     },
@@ -51,8 +52,8 @@ const MainSlider = () => {
       id: 5,
       ImageUrl: Image5,
       alt: "",
-      link: "/projects/great-acres",
-      title: "Great Acres - Prestige City",
+      link: "/projects/learning-fly",
+      title: "Total Environment Learning To Fly",
       specification: "Plots",
       price: "79.99L* Onwards",
     },
@@ -61,10 +62,21 @@ const MainSlider = () => {
       ImageUrl: Image6,
       alt: "",
       link: "/projects/great-acres",
-      title: "Great Acres - Prestige City",
+      title: "Total Environment The Magic Faraway Tree",
       specification: "Plots",
       price: "79.99L* Onwards",
     },
+    
+    {
+      id: 7,
+      ImageUrl: Image7,
+      alt: "",
+      link: "/projects/great-acres",
+      title: "Total Environment Workcations",
+      specification: "Plots",
+      price: "79.99L* Onwards",
+    },
+    
   ];
 
   const options = {
@@ -91,7 +103,7 @@ const MainSlider = () => {
   return (
     <div>
       <OwlCarousel options={options}>
-        {associations.map((item, index) => (
+        {projects.map((item, index) => (
           <div className="mx-2" key={index}>
             <Container>
             <Row>
