@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Contact from "../Includes/Contact";
 import Info from "../Includes/Info";
+import MainSlider from "../Includes/Mainslider";
 import Projects from "../Includes/Projects";
 // import MainSlider from '../Includes/Mainslider'
 
@@ -12,7 +13,7 @@ const Home = () => {
 
   return (
     <div>
-      {/* <MainSlider /> */}
+      <MainSlider />
       <Container fluid className="ps-0 pe-0 ps-md-4 pe-md-4">
         <Row className="ms-0 me-0">
           <Col md={9}>
