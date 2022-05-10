@@ -4,7 +4,7 @@ import Contact from "../Includes/Contact";
 import Info from "../Includes/Info";
 import MainSlider from "../Includes/Mainslider";
 import Projects from "../Includes/Projects";
-// import MainSlider from '../Includes/Mainslider'
+import MainSlider from '../Includes/Mainslider'
 
 const Home = () => {
   const [show, setShow] = useState(false);

@@ -10,7 +10,6 @@
     "bootstrap": "^5.1.3",
     "formik": "^2.2.9",
     "node-sass": "^7.0.1",
-    "owl.carousel": "^2.3.4",
     "owl.carousel2": "^2.2.2",
     "react": "^18.1.0",
     "react-bootstrap": "^2.3.1",
